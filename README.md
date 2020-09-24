@@ -1,5 +1,3 @@
-# Nathaniel Lacerda
-
 ## Sites que fui responsável pela interface
 
 ### [Agrosatélite](https://agrosatelite.com.br/)
@@ -17,5 +15,6 @@ Refatorei toda a interface a partir de uma página simples e antiga. Este foi o 
 ### [Portal do Cidadão](http://app.tce.ac.gov.br/cidadao/)
 Refiz quase toda a interface, otimizei o tempo de carregamento das páginas, atualizei os gráficos e melhorei a navegação.
 
---
+---
+
 Outras aplicações não foram listadas por necessidade de login
