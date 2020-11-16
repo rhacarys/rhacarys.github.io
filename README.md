@@ -1,10 +1,14 @@
 ## Sites que fui responsável pela interface
 
+
+### [SIMFaz](https://simfaz.agrosatelite.com.br/)
+Desenvolvi todo o site, exatamente como solicitado pela designer.
+
 ### [Agrosatélite](https://agrosatelite.com.br/)
 Desenvolvi as telas baseadas no modelo prototipado pela designer.
 
 ### [Tribunal de Contas](http://www.tce.ac.gov.br/)
-Desenvolvi todo o site, desde a concepção.
+Desenvolvi todo o site, inclusive o design.
 
 ### [Escola de Contas](http://sistemas.tce.ac.gov.br/escola/)
 Desenvolvi todo o front-end e parte do back-end, seguindo a identidade visual dos outros sistemas da empresa.
