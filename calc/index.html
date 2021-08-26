@@ -1,18 +1,28 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
-   <meta charset="utf-8"/>
-   <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-   <title>Calculadora Monetária</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous">
+    </script>
+    <script src="js/scripts.js"></script>
+    <title>Calculadora Monetária</title>
 </head>
 <body>
-   <section>
-    <article>
-        <header>
-            <h2>Calculadora Monetária</h2>
-        </header>
-        <p>Vamos realizar os cálculos monetários!</p>
-    </article>
-</section>
+    <section>
+        <article>
+            <header>
+                <h2>Calculadora Monetária</h2>
+            </header>
+            <p>Insira os valores para calcular o valor das parcelas.</p>
+            <table>
+                <td><p>Valor à vista: R$ <input id="value" type="number"></p></td>
+                <td><p>Número de parcelas: <select id="parcel"></select></p></td>
+            </table>
+            <input type="button" onclick="calcular()" value="Calcular">
+            <p>Valor das parcelas: <span id="result">-</span></p>
+        </article>
+    </section>
 </body>
 </html>
