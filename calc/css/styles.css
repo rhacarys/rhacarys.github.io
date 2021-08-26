@@ -1,11 +1,7 @@
-section, article {
+article {
     max-width: 400px;
     margin: auto;
     text-align: center;
-}
-
-section {
-    max-width: 600px;
 }
 
 table {
