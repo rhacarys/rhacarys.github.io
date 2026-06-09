@@ -1,89 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nathaniel | Portfólio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     </style>
-</head>
-<body class="bg-gray-50 text-gray-800 antialiased selection:bg-blue-200">
+  </head>
+  <body class="bg-gray-50 text-gray-800 antialiased selection:bg-blue-200">
     <header class="max-w-5xl mx-auto px-6 py-20 text-center sm:text-left sm:flex sm:items-center sm:justify-between">
-        <div>
-            <h1 class="text-5xl font-extrabold tracking-tight mb-2">Olá, eu sou <span class="gradient-text">Nathaniel</span></h1>
-            <p class="text-xl text-gray-600 mb-6">Desenvolvedor Web Especialista em criar experiências digitais incríveis.</p>
-            <div class="flex justify-center sm:justify-start gap-4">
-                <a href="https://github.com/rhacarys" target="_blank" class="text-gray-600 hover:text-gray-900 transition text-2xl">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/rhacarys/" target="_blank" class="text-gray-600 hover:text-blue-600 transition text-2xl">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="mailto:nathaniel.lacerda@gmail.com" class="text-gray-600 hover:text-red-500 transition text-2xl">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
+      <div>
+        <h1 class="text-5xl font-extrabold tracking-tight mb-2">
+          Olá, eu sou <span class="gradient-text">Nathaniel</span>
+        </h1>
+        <p class="text-xl text-gray-600 mb-6">
+          Desenvolvedor Web Especialista em criar experiências digitais incríveis.
+        </p>
+        <div class="flex justify-center sm:justify-start gap-4">
+          <a
+            href="https://github.com/rhacarys"
+            target="_blank"
+            class="text-gray-600 hover:text-gray-900 transition text-2xl"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rhacarys/"
+            target="_blank"
+            class="text-gray-600 hover:text-blue-600 transition text-2xl"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:nathaniel.lacerda@gmail.com" class="text-gray-600 hover:text-red-500 transition text-2xl">
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
+      </div>
     </header>
 
     <main class="max-w-5xl mx-auto px-6 py-12">
-        <h2 class="text-3xl font-bold mb-10 border-b-2 border-gray-200 pb-2">Meus Projetos</h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full">
-                <h3 class="text-xl font-bold mb-2">Rachar Contas (React)</h3>
-                <p class="text-gray-600 mb-6 flex-grow">
-                    Solução web desenvolvida para eliminar o atrito na gestão de despesas compartilhadas em viagens de grupo.
-                </p>
-                <div class="flex gap-3 mt-auto">
-                    <a href="https://github.com/rhacarys/rachar-contas-web" target="_blank" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2">
-                        <i class="fab fa-github"></i> Repositório
-                    </a>
-                    <a href="https://racharcontas.vercel.app/" target="_blank" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition flex items-center gap-2">
-                        <i class="fas fa-external-link-alt"></i> Deploy
-                    </a>
-                </div>
-            </div>
-            
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full">
-                <h3 class="text-xl font-bold mb-2">Rachar Contas (API Java)</h3>
-                <p class="text-gray-600 mb-6 flex-grow">
-                    API desenvolvida para eliminar o atrito na gestão de despesas compartilhadas em viagens de grupo.
-                </p>
-                <div class="flex gap-3 mt-auto">
-                    <a href="https://github.com/rhacarys/rachar-contas-api" target="_blank" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2">
-                        <i class="fab fa-github"></i> Repositório
-                    </a>
-                    <a href="https://rachar-contas-api.onrender.com/swagger-ui/index.html" target="_blank" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition flex items-center gap-2">
-                        <i class="fas fa-external-link-alt"></i> Deploy
-                    </a>
-                </div>
-            </div>
+      <h2 class="text-3xl font-bold mb-10 border-b-2 border-gray-200 pb-2">Meus Projetos</h2>
 
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full">
-                <h3 class="text-xl font-bold mb-2">Sistema de Votação (Java e React)</h3>
-                <p class="text-gray-600 mb-6 flex-grow">
-                    O projeto aborda desafios de processamento de votos e gerenciamento de estado em aplicações web modernas, com implementação focada em performance e testes de estresse para validação da capacidade de carga.
-                </p>
-                <div class="flex gap-3 mt-auto">
-                    <a href="https://github.com/rhacarys/desafio-votacao-fullstack" target="_blank" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2">
-                        <i class="fab fa-github"></i> Repositório
-                    </a>
-                </div>
-            </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full"
+        >
+          <h3 class="text-xl font-bold mb-2">Rachar Contas (React)</h3>
+          <p class="text-gray-600 mb-6 flex-grow">
+            Solução web desenvolvida para eliminar o atrito na gestão de despesas compartilhadas em viagens de grupo.
+          </p>
+          <div class="flex gap-3 mt-auto">
+            <a
+              href="https://github.com/rhacarys/rachar-contas-web"
+              target="_blank"
+              class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2"
+            >
+              <i class="fab fa-github"></i> Repositório
+            </a>
+            <a
+              href="https://racharcontas.vercel.app/"
+              target="_blank"
+              class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition flex items-center gap-2"
+            >
+              <i class="fas fa-external-link-alt"></i> Deploy
+            </a>
+          </div>
         </div>
+
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full"
+        >
+          <h3 class="text-xl font-bold mb-2">Rachar Contas (API Java)</h3>
+          <p class="text-gray-600 mb-6 flex-grow">
+            API desenvolvida para eliminar o atrito na gestão de despesas compartilhadas em viagens de grupo.
+          </p>
+          <div class="flex gap-3 mt-auto">
+            <a
+              href="https://github.com/rhacarys/rachar-contas-api"
+              target="_blank"
+              class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2"
+            >
+              <i class="fab fa-github"></i> Repositório
+            </a>
+            <a
+              href="https://rachar-contas-api.onrender.com/swagger-ui/index.html"
+              target="_blank"
+              class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition flex items-center gap-2"
+            >
+              <i class="fas fa-external-link-alt"></i> Deploy
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full"
+        >
+          <h3 class="text-xl font-bold mb-2">Sistema de Votação (Java e React)</h3>
+          <p class="text-gray-600 mb-6 flex-grow">
+            O projeto aborda desafios de processamento de votos e gerenciamento de estado em aplicações web modernas,
+            com implementação focada em performance e testes de estresse para validação da capacidade de carga.
+          </p>
+          <div class="flex gap-3 mt-auto">
+            <a
+              href="https://github.com/rhacarys/desafio-votacao-fullstack"
+              target="_blank"
+              class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2"
+            >
+              <i class="fab fa-github"></i> Repositório
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-6 flex flex-col h-full"
+        >
+          <h3 class="text-xl font-bold mb-2">OniBus Express (.NET e React)</h3>
+          <p class="text-gray-600 mb-6 flex-grow">Sistema Completo de Venda de Passagens Rodoviárias (MVP).</p>
+          <div class="flex gap-3 mt-auto">
+            <a
+              href="https://github.com/rhacarys/onibus-express"
+              target="_blank"
+              class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition flex items-center gap-2"
+            >
+              <i class="fab fa-github"></i> Repositório
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="max-w-5xl mx-auto px-6 py-8 text-center text-gray-500 text-sm mt-10">
-        <p>&copy; 2026 Nathaniel. Desenvolvido com <i class="fas fa-heart text-red-500 mx-1"></i> e código aberto.</p>
+      <p>&copy; 2026 Nathaniel. Desenvolvido com <i class="fas fa-heart text-red-500 mx-1"></i> e código aberto.</p>
     </footer>
-</body>
+  </body>
 </html>
